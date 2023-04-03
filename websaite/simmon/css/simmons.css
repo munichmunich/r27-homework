@@ -1,0 +1,211 @@
+body{
+    margin: 0;
+}
+.inline-block {
+    display: inline-block;
+}
+.header {
+    background-color: blue;
+    padding: 1em;
+}
+#headerlinks, #headertitle, #headerbuttons {
+    width: 33.1%;
+}
+#headerlinks a, #headerlinks span {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+#headertitle {
+    color: white;
+}
+#headertitle * {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+h1 {
+    font-size: 4em;
+}
+#boston {
+    color: #ffffff71;
+    text-align: center;
+}
+.topbutton {
+    background-color: blue;
+    border-radius: 4px;
+    padding: 5px;
+}
+#headerbuttons {
+    position: relative;
+} 
+#searchbutton {
+    position: absolute;
+    right: 10px;
+}
+#linkbutton {
+    position: absolute;
+    right: 120px;
+}
+#navbar {
+    background-color: #043867;
+    padding: 0px 20px;
+    font-size: 0px;
+}
+#navbar a {
+    text-align: center;
+    color: white;
+    width: 17.5%;
+    display: inline-block;
+    text-decoration: none;
+    border-left: #9cc7f7 solid 1px;
+    border-right: #9cc7f7 solid 1px;
+    margin: 0;
+    padding: 1em;
+    font-size: 1rem;
+}
+#navbar a:hover {
+    background-color: #002342;
+}
+#photo {
+    background-image: url(../../images/background.jpg);
+    background-size: 100%;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding: 2em;
+    margin: 1rem;
+}
+#photo h2 {
+    border-top: white solid 2px;
+}
+#photo p {
+    border-bottom: white solid 2px;
+}
+#greendiv {
+    background-color: greenyellow;
+    margin: 1em;
+}
+#bigText {
+    font-size: 3.5em;
+    color: white;
+    padding-left: 1em;
+    vertical-align: top;
+    width: 36%;
+    margin: 0 0.5em;
+}
+#applyNow {
+    color: white;
+    font-size: 1.5em;
+    width: 55%;
+}
+.gridWrapper {
+    margin: 1em;
+}
+.grid {
+    width: 33.1%;
+    height: 350px;
+    padding: 2em;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+.firstLine {
+    background-color: white;
+}
+.firstLine h3 {
+    color: #6ea4fa;
+    font-size: 70px;
+    font-family: Calibri;
+    margin: 0;
+}
+.firstLine p {
+    color: #7e8082;
+}
+#four {
+    background-color: #4f0f5c;
+}
+#five {
+    background-color: #2e68b3;
+}
+#six  {
+    padding: 0;
+}
+.secondLine h3 {
+    color: white;
+    font-size: 3em;
+    padding-bottom: 1em;
+    margin-top: 0;
+}
+.noMarginPadding {
+    padding: 0px;
+    margin: 0px;
+}
+#upcoming {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+}
+.calendar {
+    color: greenyellow;
+    border: #88898c solid 1px;
+    border-radius: 4px;
+    margin-left: 1em;
+    width: 15%;
+    font-size: 1.5em;
+    text-align: center;
+}
+.calendar span {
+    font-size: 2em;
+}
+.events {
+    color: #446a96;
+    font-size: 1.5em;
+    width: 70%;
+    margin-left: 0.5em;
+    vertical-align: top;
+}
+#paddingCorretion {
+    padding-top: 25px;
+}
+#buttonsWrapper {
+    margin: 1em;
+}
+.buttons {
+    width: 24.5%;
+    text-align: center;
+    color: #1a579c;
+    border: #1a579c solid 2px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+#footerWrapper {
+    margin: 0;
+    padding: 1em;
+    background-color: #353a40;
+}
+.footerGrid {
+    width: 24.7%;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+.footerGrid h4 {
+    color: white;
+    padding-left: 1em;
+}
+.footerGrid ul {
+    list-style-type: none;
+    padding-left: 1em;
+    color: white;
+}
+#sidebar {
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    margin-top: 1rem;
+}
+footer {
+    text-align: center;
+    color: white;
+    border-top: #ffffffc9 solid 2px;
+    margin: 2em;
+    padding: 2em;
+}

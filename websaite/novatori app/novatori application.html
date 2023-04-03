@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="-8">
+        <title>novatori application</title>
+        <link rel="icon" href="../images/favicon.svg">
+        <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+        <h1>novatori application</h1>
+        <div class="mainbox">
+            <br/>
+            <div class="starter">
+                <label for="name" class="name">name</label><br/>
+                <input
+                type="text"
+                name="firstname"
+                id="name"
+                placeholder="enter your name" required/><br/>
+                <label for="email">email</label><br/>
+                <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="enter your name" required/><br/>
+                <label for="age">age</label><br/>
+                <input
+                type="number"
+                name="age"
+                id="age"
+                placeholder="enter your age" required><br/>
+            </div>
+        </div>
+        <label for="status">wich option describes you?</label><br/>
+        <select name="status" id="status">
+            <option value="student">student</option>
+            <option value="junior">junior</option>
+            <option value="middle">middle</option>
+            <option value="senior">senior</option>
+            <option value="profesional">profesional</option>
+        </select>
+        <p>would you recommend greeksforgreeks to a friend?</p>
+        <input type="radio" id="yes" name="radio" value="yes"/>yes<br/>
+        <input type="radio" id="no" name="radio" value="no"/>no<br/>
+        <input type="radio" id="maybe" name="radio" value="maybe"/>maybe<br/>
+        <p>languages and frameworks known</p>
+        <input type="checkbox" id="c" name="c" value="c"/>
+        <label for="c">c</label><br/>
+        <input type="checkbox" id="c++" name="c++" value="c++"/>
+        <label for="c++">c++</label><br/>
+        <input type="checkbox" id="c#" name="c#" value="c#"/>
+        <label for="c#">c#</label><br/>
+        <input type="checkbox" id="java" name="java" value="java"/>
+        <label for="java">java</label><br/>
+        <input type="checkbox" id="phyton" name="phyton" value="phyton"/>
+        <label for="phyton">phyton</label><br/>
+        <input type="checkbox" id="javascript" name="javascript" value="javascript"/>
+        <label for="javascript">javascript</label><br/>
+        <input type="checkbox" id="react" name="react" value="react"/>
+        <label for="react">react</label><br/>
+        <input type="checkbox" id="angular" name="angular" value="angular"/>
+        <label for="angular">angular</label><br/>
+        <input type="checkbox" id="django" name="django" value="django"/>
+        <label for="django">django</label><br/>
+        <input type="checkbox" id="spring" name="spring" value="spring"/>
+        <label for="spring">spring</label><br/>
+        <label for="comment">any comments or suggestions</label><br/>
+        <input type="text" id="comment" name="comment"/><br/>
+        <input type="submit" value="submit" name="submit"/>
+      </body>
+</html>

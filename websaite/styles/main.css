@@ -1,0 +1,32 @@
+h1 {
+    text-align: center;
+    color:brown;
+    background-color:white;
+}
+body {
+    background-color: black;
+    color:white;
+}
+
+p {
+    text-align: center;
+    color: brown;
+}
+
+a {
+    color: red;
+}
+
+video {
+    width: 400px;
+}
+h2 {
+    color: yellow;
+}
+h3 {
+    color: blue;
+}
+#maindescription {
+    color: white;
+    font-size: 28px;
+}

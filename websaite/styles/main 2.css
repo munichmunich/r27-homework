@@ -1,0 +1,22 @@
+div, span {
+    background-color: red;
+    border: 10px solid black;
+    font-size: 35px;
+    text-align: center; 
+}
+.inline-block {
+   display: inline-block;
+}
+.flexcontainer {
+ all:unset;
+ background-color: bisque;
+ display:flex;
+ flex-wrap: wrap;
+ height: 600px; 
+ display: flex; 
+ align-items: flex-start;
+}
+.flexcontainer >* {
+ /* flex-basis: 90px; */
+ flex-shrink: 1;
+}

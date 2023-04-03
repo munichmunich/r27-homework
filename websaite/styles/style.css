@@ -1,0 +1,71 @@
+* {
+  
+  
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(24, 173, 98);
+}
+h1 {
+    font-weight: bold;
+  text-align: center;
+padding: 30px;
+text-shadow: 2px 2px;
+
+
+}
+form {
+  background-color: rgb(255, 255, 255);
+  width: 400px;
+  height: 800px;
+  margin: auto;
+  
+}
+.mainbox {
+    margin-left: 20px;
+    margin: 20px;
+   
+}
+.Name{
+    margin-top: 200px;
+    padding-top: 200px;
+    float: top;
+}
+#name {
+  width: 350px;
+  padding: 4px;
+  margin-top: 10px;
+  
+}
+
+#email{
+    width: 350px;
+    padding: 4px;
+    margin-top: 5px;
+}
+#age{
+    width: 350px;
+    padding: 4px;
+    margin-top: 5px;
+}
+
+#status{
+    width: 330px;
+    padding: 4px;
+}
+
+
+#comment{
+    width: 350px;
+    height: 40px;
+    margin-top: 10px;
+}
+#submit{
+    width: 350px;
+    text-align: center;
+    background-color: rgb(24, 173, 98);
+    margin-top: 20px;
+    border: none;
+    font-size: 20px;
+}

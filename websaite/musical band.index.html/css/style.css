@@ -1,0 +1,276 @@
+/*--------basics-part-start-------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    max-width: 806px;
+    margin: auto;
+    padding: 66px 19px;
+}
+.main-header{
+    font-size: 32px;
+    font-weight: 401;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.main-slogan{
+    color: rgba(146, 146, 146, 0.7);
+    font-size: 16px;
+    margin: 16px 0px;
+    font-style: italic;
+    text-align: center;
+}
+/*--------basics-part-end-------*/
+/*--------header-part-start-------*/
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    font-size: 16px;
+    color: white;
+    line-height: 1.5;
+}
+ul{
+    margin-bottom: 0;
+    padding-left: 0;
+}
+.menu-item{
+    display: inline-block;
+    padding: 13px 0px;
+    cursor: pointer;
+}
+.menu-item a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    padding: 13px 25px;
+}
+.menu-item:hover, .menu-item a:hover {
+    background-color: rgb(231, 231, 231);
+    color: black;
+}
+#search-wrapper i {
+    padding: 13px 25px;
+    cursor: pointer;
+    height: 100%;
+}
+#search-wrapper i:hover{
+    background-color: #f44336;
+}
+.dropdown{
+    position: relative;
+     display: inline-block;
+}
+.dropbtn {
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    padding: 0px 25px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:white;
+    min-width: 160px;
+    z-index: 1;
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 13px 17px;
+    text-decoration: none;
+    display: block;
+  }
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover .dropbtn {
+  background-color:  rgb(241, 241, 241);
+  color: black;
+}
+/*--------header-part-end-------*/
+/*--------slider-part-start-------*/
+.carousel-control-prev .carousel-control-next{
+    color: white;
+}
+.carousel-control-prev-icon,  
+.carousel-control-next-icon {
+    filter: none !important;
+}
+.carousel-item *{
+    color: white !important;
+    text-transform: capitalize;
+}
+/*--------slider-part-end-------*/
+/*--------band-part-start-------*/
+.band-paragraph{
+    text-align: justify;
+}
+#member-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 36px 0px;
+}
+.member-card{
+    width: 33%;
+}
+.member-card p{
+    margin: 18px 0px;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    font-weight: bold;
+
+}
+.member-card img{
+    width: 241px;
+    height: 311px;
+}
+/*--------band-part-end-------*/
+/*--------ticket-part-start-------*/
+.color-white{
+    color: white;
+}
+#ticket-list{
+    color: #757575;
+    background-color: #fff;
+    list-style-type: none;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.ticket-list-item{
+    border-bottom: 2px solid #ddd;
+    padding: 10px 19px;
+    text-align: left;
+}
+.sold-out{
+    color: white;
+    background-color:#f44336;
+    margin-left: 18px;
+    padding: 6px 10px;
+    text-align: center;
+}
+.free{
+    float: right;
+    margin-right: 19px;
+    border-radius: 52%;
+    background-color: black;
+    color: white;
+    width: 36px;
+    height: 36px;
+    text-align: center;
+}
+.ticket-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 36px 0px;
+    text-transform: capitalize;
+}
+.ticket-card{
+    width: 36%;
+}
+.ticket-card-info-wrapper{
+    padding: 18px 19px;
+    background-color:  #fff;
+    line-height: 1.7;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.ticket-card-img{
+    width: 100%;
+}
+.ticket-card-img:hover{
+    opacity: 0.6;
+}
+.ticket-heading{
+    margin: 0px 0px 19px 0px;
+}
+.ticket-time{
+    color: rgba(135, 135, 135, 0.8);
+    margin: 15px 0px;
+}
+.ticket-desc{
+    margin: 14px 0px;
+}
+.page-button{
+    background-color: black;
+    color: white;
+    padding: 9px 17px;
+    border: none;
+    text-transform: capitalize;
+}
+.page-button:hover, #submit:hover{
+    background-color: rgb(230, 230, 230);
+    color: black;
+}
+/*--------ticket-part-end-------*/
+/*--------contact-part-start-------*/
+.contact-info-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 0px;
+    font-size: 15px;
+    line-height: 1.5;
+    text-transform: capitalize;
+}
+.requisites-wrapper{
+    width: 50%;
+}
+.message-wrapper{
+    width: 50%;
+}
+.requisites-item{
+    margin-bottom: 15px;
+}
+.name-email{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+#name, #email{
+    padding: 9px;
+    width: 49%;
+}
+#message{
+    padding: 9px;
+    width: 100%;
+}
+#submit{
+    float: right;
+    margin: 18px 0px;
+    padding: 10px 17px;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+}
+/*--------contact-part-end-------*/
+/*--------footer-part-start-------*/
+footer{
+    background-color: #fff;
+    padding: 65px 0px;
+    text-align: center;
+}
+.socials-item{
+    text-decoration: none;
+    font-size: 24px;
+    color: rgb(160, 159, 159);
+}
+.socials-item:hover{
+    color: rgb(0, 0, 0,0.6);
+}
+footer p{
+    margin: 16px 0px;
+    text-transform: capitalize;
+    color: rgb(160, 160, 160);
+}
+/*--------footer-part-end-------*/
+
