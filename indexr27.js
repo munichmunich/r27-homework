@@ -86,3 +86,6 @@ let userRoomCount = 2;
 const bookingPaymentComplete = availableRooms >= userRoomCount && accountBalance >= (roomPrice - discount) * userRoomCount;
 
 console.log(bookingPaymentComplete);
+
+
+
